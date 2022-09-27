@@ -12,7 +12,7 @@ class Mahasiswa extends Model
     protected $useAutoIncrement = true;
     protected $useTimestamps    = true;
     protected $dateFormat       = 'datetime';
-    protected $allowedFields    = ['npm', 'nama', 'alamat'];
+    protected $allowedFields    = ['npm', 'nama', 'alamat', 'deskripsi'];
     protected $createdField     = 'created_at';
     protected $updatedField     = 'updated_at';
    
